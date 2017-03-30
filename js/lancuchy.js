@@ -4,5 +4,7 @@ var animalUpperCased = animal.toUpperCase();
 
 console.log(animalUpperCased);
 
-var motto = text.substr(1, 6);
-var textAfter = motto.replace(animal);
+var textAfter = text.replace('Papugi', animalUpperCased);
+
+console.log(textAfter);
+console.log(textAfter.length/2);
